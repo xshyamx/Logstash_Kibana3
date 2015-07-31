@@ -3,7 +3,7 @@ Logstash and Kibana3 Auto Install script
 
 This script is for doing an automated install of logstash and the kibana3 front end. It will also setup some tagging and cleanup for VMware ESXi hosts.
 
-## Install instructions.
+## Install instructions
 
     git clone https://github.com/mrlesmithjr/Logstash_Kibana3
 
@@ -19,7 +19,7 @@ This script is for doing an automated install of logstash and the kibana3 front 
 
 Setup syslog for devices as follows.
 
-**Port List**
+### Port List
 * TCP/514 Syslog (Devices supporting TCP)
 * UDP/514 Syslog (Devices that do not support TCP - Only use if absolutely necessary)
 * TCP/1514 VMware ESXi
